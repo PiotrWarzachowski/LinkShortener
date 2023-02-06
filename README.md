@@ -17,8 +17,8 @@ run main.py using ***Python **3.X.X***** compiler.
 There are 4 endpoints:
 * *GET* */* - The basic Endpoint that returns Text 
 * *POST* */shorten* - Allows you to shorten any link in according format
-...For random link generation ```{"url" : "link to redirect", "custom" : ""}```⋅⋅
-...For fixed link generation ```{"url" : "link to redirect", "custom" : "customphrase"}```⋅⋅
+⋅⋅⋅For random link generation ```{"url" : "link to redirect", "custom" : ""}```⋅⋅
+⋅⋅⋅For fixed link generation ```{"url" : "link to redirect", "custom" : "customphrase"}```⋅⋅
 * *GET* */get_views/customcode* - Allows you to get views for each custom link you have created
 * *GET* */customcode* - Redirects to a url you provided
 ## Working Build
