@@ -15,7 +15,7 @@ run main.py using ***Python **3.X.X***** compiler.
 
 ## Usage
 There are 4 endpoints:
-* GET */* - The basic Endpoint that returns Text 
+* **GET** **/** - The basic Endpoint that returns Text 
 * POST */shorten* - Allows you to shorten any link in according format  
    For random link generation ```{"url" : "link to redirect", "custom" : ""}```  
    For fixed link generation ```{"url" : "link to redirect", "custom" : "customphrase"}```  
